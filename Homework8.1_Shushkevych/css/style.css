@@ -1,19 +1,28 @@
 /* font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif; */
-body {
-    /* background-image: url(/img/c1dc473a-5738-42c0-9c67-8ba95025ac7f.jpg);
-background-position: top; */
+/* body {
+    background-image: url(/img/c1dc473a-5738-42c0-9c67-8ba95025ac7f.jpg);
+background-position: top;
 background-color: #fff;
+
+} */
+.background {
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 70px;
 
 }
 .workspace {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 700px;
+    height: 940px;
 }
 h1 {
-    margin-top: 164px;
+    margin-top: 130px;
     margin-left: 2px;
     margin-bottom: 26px;
     font-size: 42px;
@@ -25,7 +34,7 @@ h1 {
 p:nth-of-type(1) {
     margin-bottom: 34px;
     font-size: 19px;
-    letter-spacing: 0.027em;
+    letter-spacing: 0.015em;
     line-height: 34px;
     color: #171717;
     font-family: 'Lato', sans-serif;
@@ -35,26 +44,26 @@ p:nth-of-type(2) {
     margin-bottom: -2px;
     font-size: 19px;
     letter-spacing: 0.03em;
-    line-height: 35px;
+    line-height: 34px;
     color: #171717;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 
 p:nth-of-type(3) {
-    margin-bottom: 31px;
+    margin-bottom: 34px;
     font-size: 19px;
     letter-spacing: 0.026em;
-    line-height: 36px;
+    line-height: 35px;
     color: #171717;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
 }
 p:nth-of-type(4) {
-    margin-bottom: 9px;
+    margin-bottom: 11px;
     font-size: 19px;
-    letter-spacing: 0.027em;
-    line-height: 35px;
+    letter-spacing: 0.016em;
+    line-height: 34px;
     color: #171717;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -62,6 +71,7 @@ p:nth-of-type(4) {
 blockquote {
     margin-bottom: 36px;
     display: inline-block;
+    letter-spacing: 0.1em;
 }
 span:first-child {
     font-family: 'Lato', sans-serif;
@@ -98,4 +108,5 @@ span:last-child {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 150px;
 }
